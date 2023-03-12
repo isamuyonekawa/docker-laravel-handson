@@ -2,14 +2,14 @@
 https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4
 
 ## 使用技術
-php: 8.1-fpm-buster
-composer: 2.2
-nginx: 1.20-alpine
-mysql/mysql-server: 8.0
-Laravel: 9.x
+- php: 8.1-fpm-buster
+- composer: 2.2
+- nginx: 1.20-alpine
+- mysql/mysql-server: 8.0
+- Laravel: 9.x
 
 ## 初期セットアップ
-1. git clone git@github.com:ucan-lab/docker-laravel-handson.git
+1. git clone git@github.com:isamuyonekawa/docker-laravel-handson.git
 2. cd docker-laravel-handson
 3. docker compose up -d
 4. http://localhost:8080/
